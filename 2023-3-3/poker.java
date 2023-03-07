@@ -1,5 +1,5 @@
 class Poker{
-    int suits;
-    int num;
+    public int suits;
+    public int num;
     
 }
