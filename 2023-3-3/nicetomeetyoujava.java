@@ -5,7 +5,7 @@ public class nicetomeetyoujava{
 		
 	    a.printPoker();
 	    
-	    r = (int)(Math.random()*52)+1;
+	    r = (int)(Math.random()*51);
 	 
 	    
 	    a.printPoker(r);

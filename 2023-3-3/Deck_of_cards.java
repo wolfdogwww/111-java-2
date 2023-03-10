@@ -1,14 +1,12 @@
 class Deck_of_cards{
     Poker b=new Poker();
-    int[] Deck_of_cards =new int[52];
+    String[] Deck_of_cards =new String[52];
     int a =0;
 	
     public Deck_of_cards(){    //constructs
-            for(int i =1; i <=4;i++){
-                b.suits=i;
-                for(int j = 1;j<=13;j++){
-                    b.num = j;
-                    Deck_of_cards[a]= b.suits*100+b.num;
+            for(int i =0; i <4;i++){              
+                for(int j = 0;j<13;j++){
+                    Deck_of_cards[a]= b.num[j]+"\tof\t"+b.suits[i];
                     a++;
                 }
             }
