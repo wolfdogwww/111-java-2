@@ -14,11 +14,12 @@ class Deck_of_cards{
             }
 	}    
     
-
-    
 	public void printPoker(){
 		for(a =0;a<=51;a++){
 			System.out.println(Deck_of_cards[a]+" "+(a+1));
 		}
 	}
+	public void printPoker(int i ){
+		System.out.print(Deck_of_cards[i]);
+        }
 }
